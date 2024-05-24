@@ -48,7 +48,7 @@ window.addEventListener("scroll", reveal);
 
 
 function updateTimer() {
-  future  = Date.parse("June 30, 2024 11:00:00");
+  future  = Date.parse("June 29, 2024 11:00:00");
   now     = new Date();
   diff    = future - now;
 
